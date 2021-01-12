@@ -36,20 +36,23 @@ header {
 }
 
 .header-right ul {
-    list-style: none;
-    height: 100%;
-    text-align: right;
+  list-style: none;
+  height: 100%;
+  text-align: right;
 }
+
 .header-right ul li {
   display: inline-block;
   margin: 0 20px;
   line-height: 70px;
   height: 100%;
 }
+
 .header-right ul li a {
   color: #565A5C;
   text-decoration: none;
 }
+
 .header-right ul li a.cta {
   padding: 10px 20px;
   color: white;
@@ -97,18 +100,19 @@ header {
 
 @media screen and (max-width: 1000px){
   .header-right ul {
-      display: none;
+    display: none;
   }
+  
   .header-right > a {
-      display: block;
-      height: 100%;
-      line-height: 70px;
-      float: right;
-      color: lightgrey;
-      font-size: 20px;
+    display: block;
+    height: 100%;
+    line-height: 70px;
+    float: right;
+    color: lightgrey;
+    font-size: 20px;
   }
 
   .hamburger-menu.active {
-      display: block;
+    display: block;
   }
 }
